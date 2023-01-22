@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Form Excercise</title>
+        <style>
+            body{
+                margin: 150px 0 0 280px;
+                background-image: url(https://wallpaperaccess.com/full/9377.jpg);
+                background-size: cover;
+            }
+            form{
+                border: 2px solid black;
+                width: fit-content;
+                padding: 10px;
+                background:linear-gradient(45deg,lightblue,pink,skyblue);
+            }
+            img{
+                width: 200px;
+            }
+            button:hover{
+                background-color: blueviolet;
+                border-top-left-radius: 45px;
+                border-bottom-right-radius: 45px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr id="rg">
+                    <td colspan="2" >Registration</td>
+                    <td rowspan="8">Or</td>
+                    <td colspan="2">Login</td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text"></td>
+                    <td colspan="2">To access private area of this site,please Log in</td>
+                </tr>
+                <tr><td>Username</td>
+                <td><input type="text"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email"></td>
+                <td>Username<br>
+                    <input type="text">
+                </td>
+                <td rowspan="3"><img src="https://static.vecteezy.com/system/resources/previews/002/275/407/original/cyber-security-network-technology-key-lock-with-wire-low-poly-background-vector.jpg"></td>
+
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password"></td>
+                <td>Password<br>
+                <input type="password"></td>
+            </tr>
+            <tr><td>Verify Password</td>
+            <td><input type="password"></td>
+            <td>Remind Me <input type="checkbox"><td></td></td> 
+        </tr>
+        <tr>
+            <td colspan="2">Field Marked with asterick(*) are  required.</td>
+            <td></td><td><a href="">Forget Password...?</a></td>
+        </tr>
+        <tr><td colspan="2"><button>Register</button></td>
+        <td><button>LogIn</button></td><td><a href="">Forget Username...?</a></td></tr>
+            </table>
+        </form>
+    </body>
+</html>
